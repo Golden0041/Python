@@ -5,5 +5,9 @@ age = int(input())
 
 if age < 18:
     print("shen patara xar")
-else:
+elif age < 25:
+    print('axalgazrda ymawvilo')
+elif age >= 70:
     print("daberdi")
+else:
+    print("gaizarde")
